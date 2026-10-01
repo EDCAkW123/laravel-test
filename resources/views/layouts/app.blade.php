@@ -29,6 +29,10 @@
     </nav>
 
     <div class="container mt-4">
+        <div class="alert alert-info" role="status">
+            <strong>Тест PR-стенда — версия 1</strong>
+            <p class="mb-0">Эта надпись добавлена в тестовой ветке для проверки автоматического создания стенда в Apps.</p>
+        </div>
         @yield('content')
     </div>
 
